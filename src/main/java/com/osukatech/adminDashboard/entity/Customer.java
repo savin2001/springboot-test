@@ -23,10 +23,13 @@ public class Customer {
         this.mobile = mobile;
     }
 
-    public Customer(String customername, int mobile) {
+    public Customer() {
     }
 
-
+    public Customer(String customername, int mobile) {
+        this.customername = customername;
+        this.mobile = mobile;
+    }
 
     public int getCustomerid() {
         return customerid;
